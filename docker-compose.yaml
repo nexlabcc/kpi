@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  kpi-main:
+    build: main/
+    restart: always
+    ports:
+      - 80:3000
