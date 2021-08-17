@@ -3,6 +3,7 @@ version: "3"
 services:
   kpi-main:
     build: main/
+    #image: nexlabcc/kpi-main
     restart: always
     ports:
       - 80:3000
